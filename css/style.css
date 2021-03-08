@@ -1,155 +1,151 @@
 body{
-    background-color: var(--bg-color) ;
-    font-family: Arial, Helvetica, sans-serif;
+background-color: var(--bg-color) ;
+font-family: Arial, Helvetica, sans-serif;
 }
 
 :root{
-    --bg-color: rgb(255, 246,236);
-    --bg1-color: rgb(228, 239, 241);
-    --text-color: rgb(241, 109, 0);
-    --btn-color: rgb(5,86,117);
+--bg-color: rgb(255, 246,236);
+--bg1-color: rgb(228, 239, 241);
+--text-color: rgb(241, 109, 0);
+--btn-color: rgb(5,86,117);
 }
 
 button{
-    outline: none;
-    padding: 5px 20px 5px 20px ;
-    width: 100%;
-    font-size: 20px;
-    font-weight: bold;
-    color: #fff;
+outline: none;
+padding: 5px 20px 5px 20px ;
+width: 100%;
+font-size: 20px;
+font-weight: bold;
+color: #fff;
 
 }
 body{
-    font-family:  Roboto;
+font-family:  Roboto;
 }
 /* -------------------Navbar----------- ----------- */
 
 .nav_bar {
-    padding-top: 30px;
-    width: 100%;
+padding-top: 30px;
+width: 100%;
 
-    background-color: var(--bg-color);
+background-color: var(--bg-color);
 }
 .nav_bar .navbar_brand img{
-    width: 180px;
-    text-align: center;
-    margin-left: 40px;
+width: 180px;
+text-align: center;
+margin-left: 40px;
 }
 
 .nav_bar .navbar_collapse .navbar_nav{
-    text-align: center;
-    box-shadow: 2px 5px 5px rgb(197, 191, 191);
-    padding: 10px 0px;
-    transform: translateY(20px);
-    animation: slide-down 2s  ease-in-out;
-    background-color: var(--bg-color);
-    z-index: 10;
+text-align: center;
+box-shadow: 2px 5px 5px rgb(197, 191, 191);
+padding: 10px 0px;
+transform: translateY(20px);
+animation: slide-down 2s  ease-in-out;
+background-color: var(--bg-color);
+z-index: 10;
 }
 .nav_bar .nav_toggler_icon{
-    z-index: 100;
+z-index: 100;
 }
 .nav_bar .navbar_collapse .navbar_nav .dropdown_menu{
-    background-color: var(--bg-color);
-    text-align: center;
-    border: none;
-    margin-left: -50px;
+background-color: var(--bg-color);
+text-align: center;
+border: none;
+margin-left: -50px;
 }
 
 .nav_bar .navbar_collapse .navbar_nav .nav_item{
-    color: #000;
+color: #000;
 }
 .nav_bar .navbar_collapse .navbar_nav .nav_item a{
-    color: #000;
-    font-size: 18px;
+color: #000;
+font-size: 18px;
 }
 .nav_bar .navbar_collapse .navbar_nav .nav_item a:hover{
-    color: var(--BrightRed);
-    transition: all 1s ease;
+color: var(--BrightRed);
+transition: all 1s ease;
 }
 .nav_bar .navbar_collapse .navbar_nav .nav_item .nav_btn{
-    background-color: var(--text-color);
-    width: 60%;
-    color: #fff;
+background-color: var(--text-color);
+width: 60%;
+color: #fff;
 }
 
 @keyframes slide-down{
-    0%{
-        transform: translateY(-65px);
-        transition: transform 1s ease-out;
-        opacity: 0;
-    }
-    25%{
-        transform: translateY(-45px);
-        opacity: 0;
-    }
-    100%{
-        transform: translateY(22px);
-        transition: transform 1s ease-out;
-        opacity: 1;
-    }
+0%{
+transform: translateY(-65px);
+transition: transform 1s ease-out;
+opacity: 0;
 }
-
-
-
+25%{
+transform: translateY(-45px);
+opacity: 0;
+}
+100%{
+transform: translateY(22px);
+transition: transform 1s ease-out;
+opacity: 1;
+}
+}
 
 
 
 /* ----------------Sect1 Container  ---------------- */
 
 main{
-    margin-top: 50px;
+margin-top: 50px;
 }
 .sect1_container {
-    z-index: -10;
-    position: relative;
-    top: 10px;
+z-index: -10;
+position: relative;
+top: 10px;
 }
 .sect1_container .imgdiv1_col img{
-    width: 290px;
-    height: 300px;
-    border-radius: 10px;
-    margin-left: -8px;
-    margin-top: 30px;
-    
+max-width: 100%;
+border-radius: 10px;
+margin-left: -8px;
+margin-top: 30px;
+
 }
 .sect1_container .imgdiv2_col {
-    padding: 20px 0px;
+padding: 20px 0px;
 }
 .sect1_container .imgdiv2_col h1 {
-    font-weight: bold;    
-    padding: 10px 45px 0px 10px ;
-    font-size: 30px;
+font-weight: bold;    
+padding: 10px 45px 0px 10px ;
+font-size: 30px;
 }
 .sect1_container .imgdiv2_col h3 {
-    padding: 5px 0px 0px 10px ;
-    font-size: 25px;
-    font-style: italic;
-    color: var(--text-color);
+padding: 5px 0px 0px 10px ;
+font-size: 25px;
+font-style: italic;
+color: var(--text-color);
 
 }
 .sect1_container .imgdiv2_col p {
-    padding: 5px 0px 0px 10px ;
-    font-size: 18px;
+padding: 5px 0px 0px 10px ;
+font-size: 18px;
 }
 .sect1_container .imgdiv2_col p span:nth-child(1) {
-    font-weight: bold;
+font-weight: bold;
 }
 .sect1_container .imgdiv2_col p span:nth-child(2) {
-    font-weight: bold;
-    color: var(--text-color);
+font-weight: bold;
+color: var(--text-color);
 
 }
 .sect1_container .imgdiv2_col p span:nth-child(3) {
-    font-weight: bold;
-    color: var(--text-color);
+font-weight: bold;
+color: var(--text-color);
 }
 .sect1_container .imgdiv2_col .sect1_btn button{
-    background-color: var(--text-color);
-    padding: 5px 20px 5px 20px ;
-    width: 100%;
-    font-weight: bold;
-    color: #fff;
-    font-size: 20px;
+background-color: var(--text-color);
+padding: 5px 20px 5px 20px ;
+width: 100%;
+font-weight: bold;
+color: #fff;
+font-size: 20px;
 }
 
 
@@ -157,217 +153,215 @@ main{
 
 /* ----------------Sect2 Container  ---------------- */
 .sect2_container {
-    margin: 30px 0px 0px 0px ;
+margin: 30px 0px 0px 0px ;
 }
 .sect2_container .slider_row{
-    padding: 20px 10px;
-    text-align: center;
+padding: 20px 10px;
+text-align: center;
 }
 
 .sect2_container .slider_col img{
-    width: 230px;
-    margin-bottom: 40px;
+max-width: 100%;
+margin-bottom: 40px;
 }
 
 
 
 /* ----------------Sect3 Container  ---------------- */
 .sect3_container{
-    background-color: var(--text-color);
+background-color: var(--text-color);
 }
 
 .sect3_container .achiever_row{
-    padding: 20px 0px;
+padding: 20px 0px;
 }
 .sect3_container .achiever_row .achiever_col{
-    text-align: center;
-    padding-top: 20px;
+text-align: center;
+padding-top: 20px;
 
 }
 .sect3_container .achiever_row .achiever_col h1{
-    font-size: 16px;
-    font-weight: bold;
-    color: #fff;
-    padding-bottom: 10px;
+font-size: 16px;
+font-weight: bold;
+color: #fff;
+padding-bottom: 10px;
 }
 .sect3_container .achiever_row .achiever_col h2{
-    font-size: 30px;
-    font-weight: bolder;
-    color: #fff;
+font-size: 30px;
+font-weight: bolder;
+color: #fff;
 }
 .sect3_container .achiever_row .achiever_col .sect3_btn button{
-    background-color: var(--btn-color) ;
-    padding: 5px 0px 5px 0px ;
-    width: 70%;
-    font-weight: bold;
-    color: #fff;
-    font-size: 20px;
+background-color: var(--btn-color) ;
+padding: 5px 0px 5px 0px ;
+width: 70%;
+font-weight: bold;
+color: #fff;
+font-size: 20px;
 
 }
 .sect3_container .achiever_row .achiever_col p a{
-    display: block;
-    color: #fff;
-    font-size: 18px;
-    font-weight: bold;
-    text-decoration: underline;
+display: block;
+color: #fff;
+font-size: 18px;
+font-weight: bold;
+text-decoration: underline;
 
 }
 .sect3_container .achiever_row .achiever_col p{
-    margin: 30px 0px 20px 0px;
+margin: 30px 0px 20px 0px;
 }
 .sect3_container .achiever_row .achiever_col p a{
-    padding-bottom: 15px;
+padding-bottom: 15px;
 }
 .sect3_container .achiever_row .achiever_col p a:hover{
-    text-decoration: none;
+text-decoration: none;
 }
 
 /* ----------------Sect4 Container  ---------------- */
 .sect4_container {
-    background-color: var(--bg1-color);
-    padding: 10px 0px 40px 0px;
+background-color: var(--bg1-color);
+padding: 10px 0px 40px 0px;
 
 }
 .sect4_container .smartbrand_row .smartbrand1_col img{
-    width: 290px;
-    height: 200px;
-    border-radius: 10px;
-    margin-left: -8px;
+max-width: 100%;
+border-radius: 10px;
+margin-left: -8px;
 }
 .sect4_container .smartbrand_row h1{
-    text-align: center;
-    font-size: 35px;
-    font-weight: bold;
-    padding: 20px 20px;
+text-align: center;
+font-size: 35px;
+font-weight: bold;
+padding: 20px 20px;
 }
 .sect4_container .smartbrand_row .smartbrand2_col p{
-    padding: 20px 0px 0px 0px;
-    font-size: 17px;
-    opacity: 0.9;
+padding: 20px 0px 0px 0px;
+font-size: 17px;
+opacity: 0.9;
 }
 .sect4_container .smartbrand_row .smartbrand2_col p span{
-    font-weight: bold;
-    font-style: italic;
-    text-decoration: underline;
+font-weight: bold;
+font-style: italic;
+text-decoration: underline;
 }
 
 
 .sect4_container .smartbrand_row .smartbrand2_col .sect4_btn button{
-    background-color: var(--text-color);
-    padding: 5px 20px 5px 20px ;
-    font-weight: bold;
-    color: #fff;
-    font-size: 20px;
-    margin-left: -10px;
+background-color: var(--text-color);
+padding: 5px 20px 5px 20px ;
+font-weight: bold;
+color: #fff;
+font-size: 20px;
+margin-left: -10px;
 }
 
 
 
 /* ----------------Sect5 Container  ---------------- */
 .sect5_container{
-    background-color: #fff;
+background-color: #fff;
 }
 .sect5_container .learn_row{
-    padding: 20px 10px;
-    text-align: center;
+padding: 20px 10px;
+text-align: center;
 }
 .sect5_container .learn_row h1{
-    font-size: 30px;
-    font-weight: bold;
-    padding: 20px 10px;
+font-size: 30px;
+font-weight: bold;
+padding: 20px 10px;
 }
 .sect5_container .learn_col img{
-    width: 270px;
-    border-radius: 10px;
-    margin-bottom: 30px;
-    margin-left: -10px;
+width: 270px;
+border-radius: 10px;
+margin-bottom: 30px;
+margin-left: -10px;
 }
 
 /* ----------------Sect6 Container  ---------------- */
 .sect6_container{
-    background-color: var(--btn-color);
-    text-align: center;
-    color: #fff;
+background-color: var(--btn-color);
+text-align: center;
+color: #fff;
 }
 
 .sect6_container .testimonial1_col h2{
-    font-size: 19px;
-    font-weight: 400;
-    padding: 20px 0px;
-    font-style: italic;
-    opacity: 0.9;
+font-size: 19px;
+font-weight: 400;
+padding: 20px 0px;
+font-style: italic;
+opacity: 0.9;
 }
 .sect6_container .testimonial1_col h3{
-    font-size: 13px;
-    font-weight: 200;
-    opacity: 0.9;
-    padding: 0px 10px;
-    text-decoration: underline;
+font-size: 13px;
+font-weight: 200;
+opacity: 0.9;
+padding: 0px 10px;
+text-decoration: underline;
 }
 .sect6_container .testimonial2_col img{
-    width: 200px;
-    border-radius: 50%;
-    margin-bottom: 30px;
-    margin-left: -10px;
+max-width: 100%;
+border-radius: 50%;
+margin-bottom: 30px;
+margin-left: -10px;
 }
 .sect6_container .testimonial1_col p a{
-    font-size: 18px;
-    font-weight: 700;
-    color: #fff;
-    text-decoration: underline;
+font-size: 18px;
+font-weight: 700;
+color: #fff;
+text-decoration: underline;
 }
 
 
 /* ----------------Sect7 Container  ---------------- */
 .sect7_container {
-    padding: 30px 0px ;
+padding: 30px 0px ;
 }
 .sect7_container .jumpstart1_col {
-    padding: 20px 0px;
-    padding-left: 20px;
+padding: 20px 0px;
+padding-left: 20px;
 }
 .sect7_container .jumpstart1_col h1 {
-    font-weight: bold;    
-    padding: 10px 0px 20px 0px ;
-    font-size: 35px;
-    color: var(--btn-color);
+font-weight: bold;    
+padding: 10px 0px 20px 0px ;
+font-size: 35px;
+color: var(--btn-color);
 }
 .sect7_container .jumpstart1_col p {
-    font-size: 18px;
+font-size: 18px;
 }
 .sect7_container .jumpstart1_col p span:nth-child(1) {
-    font-weight: bold;
+font-weight: bold;
 }
 .sect7_container .jumpstart1_col p span:nth-child(2) {
-    font-weight: bold;
+font-weight: bold;
 
 }
 .sect7_container .jumpstart1_col p span:nth-child(3) {
-    font-weight: bold;
-    color: var(--text-color);
-    text-decoration: underline;
+font-weight: bold;
+color: var(--text-color);
+text-decoration: underline;
 
 }
 .sect7_container .jumpstart1_col p span:nth-child(3):hover {
-    text-decoration: none;
+text-decoration: none;
 
 }
 
 .sect7_container .jumpstart1_col .sect7_btn button{
-    background-color: var(--text-color);
-    padding: 5px 20px 5px 20px ;
-    width: 100%;
-    font-weight: bold;
-    color: #fff;
-    font-size: 20px;
-    margin-left: -10px;
+background-color: var(--text-color);
+padding: 5px 20px 5px 20px ;
+width: 100%;
+font-weight: bold;
+color: #fff;
+font-size: 20px;
+margin-left: -10px;
 }
 .sect7_container .jumpstart2_col img{
-    width: 290px;
-    height: 200px;
-    border-radius: 10px;
-    margin-left: -8px;
-    margin-top: 30px;
+max-width: 100%;
+border-radius: 10px;
+margin-left: -8px;
+margin-top: 30px;
 }
 
 
@@ -375,29 +369,29 @@ main{
 
 /* ----------------Sect8 Container  ---------------- */
 .sect8_container{
-    background-color: #fff;
-    padding: 20px 0px;
+background-color: #fff;
+padding: 20px 0px;
 }
 
 .sect8_container .client_row{
-    padding: 20px 10px;
-    text-align: center;
+padding: 20px 10px;
+text-align: center;
 }
 .sect8_container .client_col h2{
-    font-size: 30px;
-    padding: 0px 30px;
-    font-weight: bold;
-    line-height: 23px;
+font-size: 30px;
+padding: 0px 30px;
+font-weight: bold;
+line-height: 23px;
 }
 .sect8_container .client_col h3{
-    font-size: 14px;
-    padding: 5px 0px;
-    opacity: 0.9;
-    margin-bottom: 25px;
+font-size: 14px;
+padding: 5px 0px;
+opacity: 0.9;
+margin-bottom: 25px;
 }
 .sect8_container .client_col img{
-    width: 200px;
-    margin-bottom: 30px;
+width: 200px;
+margin-bottom: 30px;
 }
 
 
@@ -405,346 +399,248 @@ main{
 
 
 .sect9_container {
-    padding: 20px 0px;
-    background-color: var(--bg1-color);
-    margin-bottom: 40px;
+padding: 20px 0px;
+background-color: var(--bg1-color);
+margin-bottom: 40px;
 }
 .sect9_container .hustle1_col {
-    margin-top: 40px;
+margin-top: 40px;
 }
 .sect9_container .hustle1_col img{
-    width: 290px;
-    height: 300px;
-    border-radius: 10px;
-    margin-left: 0px;
+max-width: 100%;
+border-radius: 10px;
+margin-left: 0px;
 }
 .sect9_container .hustle2_col {
-    padding-top: 30px;
+padding-top: 30px;
 }
 .sect9_container .hustle2_col h1 {
-    font-weight: bold;    
-    padding: 10px 45px 0px 10px ;
-    font-size: 30px;
+font-weight: bold;    
+padding: 10px 45px 0px 10px ;
+font-size: 30px;
 }
 .sect9_container .hustle2_col h3 {
-    padding: 5px 0px 0px 10px ;
-    font-size: 16px;
-    display: inline-block;
+padding: 5px 0px 0px 10px ;
+font-size: 16px;
+display: inline-block;
 }
 .sect9_container .hustle2_col h3 a {
-    text-decoration: underline;
-    font-size: 16px;
-    color: #000;
-    display: inline-block;
+text-decoration: underline;
+font-size: 16px;
+color: #000;
+display: inline-block;
 }
 .sect9_container .hustle2_col h3 a:hover {
-    text-decoration: none;
+text-decoration: none;
 }
 .sect9_container .hustle2_col p {
-    padding: 5px 0px 0px 10px ;
-    font-size: 18px;
-    font-style: italic;
-    opacity: 0.9;
+padding: 5px 0px 0px 10px ;
+font-size: 18px;
+font-style: italic;
+opacity: 0.9;
 
 }
 
 .sect9_container .hustle2_col .sect9_btn button{
-    background-color: rgb(64,64,64);
-    padding: 5px 15px 5px 15px ;
-    width: 100%;
-    font-weight: bold;
-    color: #fff;
-    font-size: 20px;
+background-color: rgb(64,64,64);
+padding: 5px 15px 5px 15px ;
+width: 100%;
+font-weight: bold;
+color: #fff;
+font-size: 20px;
 }
 
 
 
 /* ----------------Sect10 Container  ---------------- */
 .sect10_container{
-    margin-bottom: 40px;
+margin-bottom: 40px;
 }
 .sect10_container .clarity1_col {
-    padding: 20px 0px;
+padding: 20px 0px;
 }
 .sect10_container .clarity1_col h1 {
-    font-weight: bold;    
-    padding: 10px 0px 20px 0px ;
-    font-size: 35px;
+font-weight: bold;    
+padding: 10px 0px 20px 0px ;
+font-size: 35px;
 }
 .sect10_container .clarity1_col p {
-    font-size: 18px;
-    opacity: 0.9;
-    padding: 5px 5px 10px 8px;
+font-size: 18px;
+opacity: 0.9;
+padding: 5px 5px 10px 8px;
 }
 
 
 .sect10_container .clarity1_col .sect10_btn button{
-    background-color: var(--text-color);
-    padding: 5px 20px 5px 20px ;
-    width: 100%;
-    font-weight: bold;
-    color: #fff;
-    font-size: 20px;
-    margin-left: -10px;
+background-color: var(--text-color);
+padding: 5px 20px 5px 20px ;
+width: 100%;
+font-weight: bold;
+color: #fff;
+font-size: 20px;
+margin-left: -10px;
 }
 .sect10_container .clarity2_col img{
-    width: 290px;
-    height: 320px;
-    border-radius: 10px;
-    margin-left: -8px;
-    margin-top: 40px;
+max-width: 100%;
+border-radius: 10px;
+margin-left: -8px;
+margin-top: 40px;
 }
 
 /* ----------------Sect11 Container  ---------------- */
 .sect11_container{
-    background-color: var(--text-color);
+background-color: var(--text-color);
+color: #fff;
+}
+.sect11_container .footer_col {
+margin-top: 30px;
+text-align: center;
+}
+.sect11_container .footer_col h1 {
+font-size: 35px;
+font-weight: bold;
+padding: 0px 0px;
+}
+.sect11_container .footer_col h3 {
+font-size: 18px;
+font-weight: bold;
+padding: 40px 22px;
+line-height: 25px;
+}
+.sect11_container .footer_col form input{
+width: 100%;
+margin-bottom: 10px;
+}
+.sect11_container .footer_col form button{
+background-color:rgba(0,0,0,0.4);
+outline: none;
+border: none;
+}
+.sect11_container .footer_col .icon_container{
+    margin: 5% 0%;
+}
+.sect11_container .footer_col .icon_container .icon{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20% 0%;
+}
+.sect11_container .footer_col .icon_container i{
+    flex: 0 1 10%;
+    padding: 10px 10px;
     color: #fff;
-
-}
-
-.sect11_container .footer1_col {
-    margin-top: 30px;
-    text-align: center;
-}
-.sect11_container .footer1_col h1 {
-    font-size: 35px;
-    font-weight: bold;
-    padding: 0px 0px;
-}
-.sect11_container .footer1_col h3 {
     font-size: 18px;
     font-weight: bold;
-    padding: 40px 22px;
-    line-height: 25px;
 }
-
-.sect11_container .footer1_col form input {
-    padding: 0.8% 5%;
-    width: 230px;
-    border: none;
-    outline: none;
-    border-radius: 5px;
-    margin-bottom: 5px;
-    margin-left: 23px;
-    display: block;
-
-
+.sect11_container .footer_col .icon_container i:hover{
+    background-color: rgba(0,0,0,0.4);
 }
-
-.sect11_container .footer1_col .sect11_btn button{
-    width: 230px;
-    font-weight: bold;
-    color: #fff;
-    font-size: 20px;
-    background-color:rgba(0,0,0,0.4);
+.sect11_container .footer_col .footer_list ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    flex-wrap: wrap;
+    margin: 5% 0%;
 }
-
-.sect11_container .footer1_col span {
-    margin: 30px 0px 30px 25px;
-    display: flex;    
+.sect11_container .footer_col .footer_list ul li{
+    flex: 0 1 3%;
 }
-.sect11_container .footer1_col span a i {
-    color: #fff;
-    font-size: 23px;
-}
-.sect11_container .footer2_col .footer_link{
-    padding: 0px 5%;
-    text-align: center;
-    margin: 20px 0px 30px 0px;
-}
-.sect11_container .footer2_col .footer_link  a {
-    display: inline-block;
-    color: #fff;
+.sect11_container .footer_col .footer_list ul li a{
     text-decoration: underline;
-    line-height: 5px;
+    color: #fff;
     font-size: 15px;
-    padding-right: -20px;
-    font-weight: bold;
+    padding-right: 5px;
 }
-.sect11_container .footer2_col .footer_link  a:hover {
+.sect11_container .footer_col .footer_list ul li a:hover{
     text-decoration: none;
 }
-.sect11_container .footer2_col h6{
-    text-align: center;
+.sect11_container .footer_col .footer_list h4{
     font-size: 15px;
-    padding: 0px 25px;
-    font-weight: bold;
+    margin-top: 10px;
 }
-
-
-
-
 
 
 
 /* ---------------------------Media Queries------------------- */
 
 @media (min-width: 375px) {
-.sect1_container .imgdiv1_col img{
-    width: 320px;
-    height: 280px;
-}
-/* ----------------Sect4 Container  ---------------- */
-.sect4_container .smartbrand_row .smartbrand1_col img{
-    width: 320px;
-    height: 250px;
-
-}
-/* ----------------Sect6 Container  ---------------- */
-
-.sect6_container .testimonial2_col img{
-    width: 270px;
-
-}
-/* ----------------Sect7 Container  ---------------- */
-
-.sect7_container .jumpstart2_col img{
-    width: 320px;
-    height: 280px;
-
-}
-/* ----------------Sect9 Container  ---------------- */
-
-.sect9_container .hustle1_col img{
-    width: 320px;
-    height: 280px;
-}
-/* ----------------Sect10 Container  ---------------- */
-
-.sect10_container .clarity2_col img{
-    width: 320px;
-    height: 280px;
-
-}
 /* ----------------Sect11 Container  ---------------- */
 
-.sect11_container .footer1_col .sect11_btn button{
-    margin-left: 10%;
-}
-.sect11_container .footer1_col span {
-    margin: 30px 0px 30px 20px;
-    display: flex;    
+.sect11_container .footer_col form .form_container{
+    margin: 0px 12%;
 }
 
-
-
-
-
 }
-
 @media (min-width: 425px) {
-.sect1_container .imgdiv1_col img{
-    width: 380px;
-    height: 340px;
-}
-/* ----------------Sect4 Container  ---------------- */
-.sect4_container .smartbrand_row .smartbrand1_col img{
-    width: 380px;
-    height: 260px;
-
-}
-/* ----------------Sect7 Container  ---------------- */
-
-.sect7_container .jumpstart2_col img{
-    width: 380px;
-    height: 280px;
-
-}
-/* ----------------Sect9 Container  ---------------- */
-
-.sect9_container .hustle1_col img{
-    width: 380px;
-    height: 340px;
-}
-/* ----------------Sect10 Container  ---------------- */
-
-.sect10_container .clarity2_col img{
-    width: 380px;
-    height: 360px;
-
-}
 /* ----------------Sect11 Container  ---------------- */
 
-.sect11_container .footer1_col .sect11_btn button{
-    margin-left: -7%;
+.sect11_container .footer_col .icon_container .icon{
+    margin: 10% 0%;
+}
+.sect11_container .footer_col .icon_container .icon i{
+    margin: 10% 0%;
+    flex-basis: 0%;
+    font-size: 20px;
 }
 }
+
+
 /* X-Small devices (portrait phones, less than 576px) */
 
 @media (min-width: 576px) {
 
-    /* ----------------Sect1 Container  ---------------- */ 
-    
-.sect1_container .imgdiv1_col img{
-    width: 530px;
-    height: 550px;
-}
+
 .sect1_container .imgdiv2_col h1 {
-    padding: 10px 65px 0px 10px ;
-    font-size: 40px;
+padding: 10px 65px 0px 10px ;
+font-size: 40px;
 }
- /* ----------------Sect2 Container  ---------------- */
+/* ----------------Sect2 Container  ---------------- */
 
 .sect2_container .slider_row{
-    padding: 20px 0px;
+padding: 20px 0px;
 }
-.sect2_container .slider_col img{
-    width: 250px;
-}
-.sect2_container .col_3 img{
-    width: 75%;
-}
+
 /* ----------------Sect4 Container  ---------------- */
-.sect4_container .smartbrand_row .smartbrand1_col img{
-    width: 530px;
-    height: 300px;
- }
- .sect4_container .smartbrand_row .smartbrand2_col p{
-    padding: 20px 23px 0px 0px;
+
+.sect4_container .smartbrand_row .smartbrand2_col p{
+padding: 20px 23px 0px 0px;
 
 }
 
 /* ----------------Sect5 Container  ---------------- */
 
 .sect5_container .learn_row h1{
-    font-size: 40px;
+font-size: 40px;
 }
 
 .sect5_container .learn_col img{
-    width: 520px;
+width: 520px;
 
 }
 /* ----------------Sect6 Container  ---------------- */
 .sect6_container .testimonial1_col h2{
-    font-size: 20px;
-    padding: 20px 11px;
+font-size: 20px;
+padding: 20px 11px;
 
 }
 .sect6_container .testimonial1_col h3{
-    font-size: 12px;
+font-size: 12px;
 }
-.sect6_container .testimonial2_col img{
-    width: 400px;
 
-}
 /* ----------------Sect7 Container  ---------------- */
 
 
 .sect7_container .jumpstart1_col h1 {
-    padding: 10px 20px 20px 0px ;
-    font-size: 40px;
+padding: 10px 20px 20px 0px ;
+font-size: 40px;
 }
 .sect7_container .jumpstart1_col p {
-    padding: 0px 30px 0px 0px;
+padding: 0px 30px 0px 0px;
 }
-.sect7_container .jumpstart2_col img{
-    width: 520px;
-    height: 350px;
 
-}
 .sect7_container .jumpstart1_col .sect7_btn button{
-    padding: 5px 20px 5px 20px ;
-    width: 50%;
+padding: 5px 20px 5px 20px ;
+width: 50%;
 
 }
 
@@ -753,127 +649,64 @@ main{
 
 
 .sect8_container .client_col img{
-    width: 400px;
+width: 400px;
 }
 
 /* ----------------Sect9 Container  ---------------- */
 
 .sect9_container .hustle1_col img{
-    width: 530px;
-    height: 450px;
-    margin-left: -5px;
+margin-left: -5px;
 }
 .sect9_container .hustle2_col h1 {
-    padding: 10px 45px 0px 10px ;
-    font-size: 40px;
+padding: 10px 45px 0px 10px ;
+font-size: 40px;
 }
 
 .sect9_container .hustle2_col .sect9_btn button{
-    padding: 5px 15px 5px 15px ;
-    width: 60%;
-    text-align: left;
+padding: 5px 15px 5px 15px ;
+width: 60%;
+text-align: left;
 
 }
 /* ----------------Sect10 Container  ---------------- */
 .sect10_container .clarity1_col h1 {
-    padding: 10px 0px 20px 0px ;
-    font-size: 45px;
+padding: 10px 0px 20px 0px ;
+font-size: 45px;
 }
 
 .sect10_container .clarity1_col .sect10_btn button{
-    padding: 5px 20px 5px 20px ;
-    width: 60%;
-    text-align: left;
+padding: 5px 20px 5px 20px ;
+width: 60%;
+text-align: left;
 }
-.sect10_container .clarity2_col img{
-    width: 530px;
-    height: 550px;
-
-}
-/* ----------------Sect11 Container  ---------------- */
-.sect11_container .footer1_col h1 {
-    padding: 0px 60px;
-}
-.sect11_container .footer1_col h3 {
-    padding: 40px 50px;
-}
-.sect11_container .footer1_col form input {
-    width: 450px;
-}
-.sect11_container .footer1_col .sect11_btn button{
-    width: 450px;
-    font-size: 15px;
-    margin-right: 25px;
-}
-.sect11_container .footer1_col span {
-    margin: 30px 0px 30px 30%;
-}
-
-}
-
-
-@media (min-width: 500px){
-    .sect11_container .footer1_col form input {
-        width: 300px;
-    }
-    .sect11_container .footer1_col .sect11_btn button{
-        margin-right: 10px;
-        width: 300px;
-
-    }
-    .sect11_container .footer1_col span {
-        margin: 30px 0px 30px 17%;
-    }
-}
-
-@media (min-width: 600px){
 
 /* ----------------Sect11 Container  ---------------- */
+.sect11_container .footer_col h1 {
+padding: 0px 60px;
+}
+.sect11_container .footer_col h3 {
+padding: 40px 50px;
+}
 
-    .sect11_container .footer1_col .sect11_btn button{
-        margin-left: 40px;
-    }
 }
 
 /* Medium devices (tablets, 768px and up) */
 
 
 @media (min-width: 768px) { 
+/* ----------------Sect2 Container  ---------------- */
 
-.sect1_container .imgdiv1_col img{
-    width: 300px;
-    height: 350px;
-}
-
-    /* ----------------Sect2 Container  ---------------- */
-
-.sect2_container .slider_col img{
-    width: 90px;
-}
 .sect2_container .slider_col{
-    margin-left: 20px;
+margin-left: 20px;
 }
 
 /* ----------------Sect3 Container  ---------------- */
 .sect3_container .achiever_row .achiever_col h2{
-    font-size: 40px;
-    padding: opx 40px;
+font-size: 40px;
+padding: 0px 40px;
 
 }
-.sect3_container .achiever_row .achiever_col .sect3_btn button{
-    width: 35%;
-}
-.sect3_container .achiever_row .achiever_col p a{
-    display:inline-block ;
-    margin-right: 30px;
 
-}
-/* ----------------Sect4 Container  ---------------- */
-
-.sect4_container .smartbrand_row .smartbrand1_col img{
-width: 350px;
-height: 250px;
-}
 
 /* ----------------Sect6 Container  ---------------- */
 
@@ -895,7 +728,6 @@ width: 25%;
 }
 .sect6_container .testimonial2_col img{
 margin-top: 60px;
-width: 150px;
 
 }
 /* ----------------Sect7 Container  ---------------- */
@@ -907,11 +739,7 @@ font-size: 40px;
 .sect7_container .jumpstart1_col p {
 padding: 0px 32px 0px 0px;
 }
-.sect7_container .jumpstart2_col img{
-width: 350px;
-height: 350px;
 
-}
 .sect7_container .jumpstart1_col .sect7_btn button{
 width: 85%;
 
@@ -935,8 +763,6 @@ font-size: 16px;
 /* ----------------Sect9 Container  ---------------- */
 
 .sect9_container .hustle1_col img{
-width: 350px;
-height: 350px;
 margin-right: 7px;
 
 }
@@ -956,39 +782,36 @@ font-size: 45px;
 width: 90%;
 }
 .sect10_container .clarity2_col img{
-width: 350px;
-height: 350px;
 margin-left: 10px;
 }
 
 /* ----------------Sect11 Container  ---------------- */
-.sect11_container .footer1_col h1 {
+.sect11_container .footer_col h1 {
 font-size: 40px;
 padding: 0px 60px;
 }
-.sect11_container .footer1_col h3 {
+.sect11_container .footer_col h3 {
 padding: 40px 180px;
 }
-.sect11_container .footer1_col form {
-margin-left: 25%;
-}
-.sect11_container .footer1_col form input {
-width: 300px;
-
-}
-.sect11_container .footer1_col .sect11_btn button{
-width: 300px;
-margin-left: -16%;
-
-}
-.sect11_container .footer1_col span {
-margin: 30px 0px 30px 10%;
-}
 
 
+.sect11_container .footer_col form .form_container{
+    margin: 0px 25%;
+}
+.sect11_container .footer_col .icon_container .icon{
+    margin: 0% 0%;
+}
+.sect11_container .footer_col .icon_container .icon i{
+    margin: 0% 0%;
 }
 
- /* Large devices (desktops, 992px and up) */
+.sect11_container .footer_col .footer_list ul li{
+    flex: 0 1 3%;
+    padding-right: 8px;
+}
+}
+
+/* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
 
 /* ----------------nav Container  ---------------- */
@@ -1060,10 +883,7 @@ width: 45%;
 .sect1_container .imgdiv2_col {
 width: 55%;
 }
-.sect1_container .imgdiv1_col img{
-width: 380px;
-height: 400px;
-}
+
 .sect1_container .imgdiv2_col h1 {
 font-size: 50px;
 }
@@ -1075,11 +895,9 @@ width: 60%;
 }
 
 
-     /* ----------------Sect2 Container  ---------------- */
+/* ----------------Sect2 Container  ---------------- */
 
-.sect2_container .slider_col img{
-width: 130px;
-}
+
 .sect3_container .achiever_row .achiever_col h2{
 padding: 0px 02px;
 font-size: 45px;
@@ -1099,10 +917,7 @@ width: 57%;
 .sect4_container .smartbrand_row .smartbrand2_col{
 width: 43%;
 }
-.sect4_container .smartbrand_row .smartbrand1_col img{
-width: 530px;
-height: 300px;
-}
+
 .sect4_container .smartbrand_row h1{
 font-size: 50px;
 }
@@ -1116,23 +931,19 @@ font-size: 50px;
 width: 200px;
 }
 
-   /* ----------------Sect7 Container  ---------------- */
+/* ----------------Sect7 Container  ---------------- */
 
 .sect7_container .jumpstart1_col {
-    width: 51%;
+width: 51%;
 } 
 .sect7_container .jumpstart1_col p {
-    padding: 0px 10px 0px 0px;
+padding: 0px 10px 0px 0px;
 }
 .sect7_container .jumpstart2_col {
-    width: 49%;
+width: 49%;
 } 
-.sect7_container .jumpstart2_col img{
-    width: 400px;
-    height: 350px;
-}
 
-    /* ----------------Sect8 Container  ---------------- */
+/* ----------------Sect8 Container  ---------------- */
 .sect8_container .client_col img{
 margin-right: 0px;
 }
@@ -1154,134 +965,99 @@ width: 55%;
 padding-left: 0px;
 }
 .sect9_container .hustle1_col img{
-width: 360px;
-height: 360px;
 margin-left: 30px;
 }
 /* ----------------Sect8 Container  ---------------- */
 
 .sect10_container .clarity1_col h1 {
-    font-size: 50px;
+font-size: 50px;
 }
 .sect10_container .clarity2_col img{
-    width: 400px;
-    height: 600px;
-    margin-left: 25px;
+margin-left: 25px;
 }
 .sect10_container .clarity1_col .sect10_btn button{
-    width: 60%;
+width: 60%;
 }
 .sect10_container .clarity1_col p {
-    font-size: 20px;
-    padding: 5px 20px 5px 8px; 
+font-size: 20px;
+padding: 5px 20px 5px 8px; 
 }
 
 /* ----------------Sect11 Container  ---------------- */
 
 
-.sect11_container .footer1_col h1 {
-    padding-top: 30px;
+.sect11_container .footer_col h1 {
+padding-top: 30px;
 }
-.sect11_container .footer1_col h3 {
-    padding: 20px 230px;
+.sect11_container .footer_col h3 {
+padding: 20px 230px;
 }
-.sect11_container .footer1_col form {
-    margin-left: 27%;
-}
-.sect11_container .footer1_col .sect11_btn button{
-    margin-left: -36%;
+
+
 
 }
 
-}
 
-         
-     /* X-Large devices (large desktops, 1200px and up) */
-        @media (min-width: 1200px) { 
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
 
 .nav_bar{
-    height: 85px;
+height: 85px;
 }
 .nav_bar .navbar_collapse{
-    margin-left: 22%;
+margin-left: 22%;
 }
 .nav_bar .nav_logo img{
-    width: 180px;
+width: 180px;
 }
 
+/* ----------------Sect1 Container  ---------------- */ 
+main{
+margin-top: 90px;
+}
 
-            
- /* ----------------Sect1 Container  ---------------- */ 
- main{
-     margin-top: 90px;
- }
-    .sect1_container .imgdiv1_col img{
-        width: 450px;
-        height: 450px;
-        margin-left: 10px;
-    }
 /* ----------------Sect2 Container  ---------------- */
-    .sect2_container .slider_row{
-        padding-top: 50px;
-    }
-
+.sect2_container .slider_row{
+padding-top: 50px;
+}
 /* ----------------Sect3 Container  ---------------- */
 
-   .sect3_container .achiever_row .achiever_col .sect3_btn button{
-       width: 20%;
-   }
-/* ----------------Sect4 Container  ---------------- */
-
-    .sect4_container .smartbrand_row .smartbrand1_col img{
-        width: 570px;
-        height: 350px;
-        margin-left: 40px;
-    }
-
-/* ----------------Sect9 Container  ---------------- */
-    .sect9_container .hustle1_col img{
-        width: 430px;
-        height: 380px;
-    }
+.sect3_container .achiever_row .achiever_col .sect3_btn button{
+width: 20%;
+}
 
 /* ----------------Sect10 Container  ---------------- */
-    .sect10_container .clarity1_col p {
+.sect10_container .clarity1_col p {
 
-        padding: 5px 0px 10px 8px;
-    }
-    .sect10_container .clarity2_col img{
-        margin-left: 45px;
-    }
-    .sect10_container .clarity1_col h1,
-    .sect10_container .clarity1_col p {
-        margin-left: 45px;
-   }
-   
-    .sect10_container .clarity1_col .sect10_btn button{
-        width: 50%;
-        margin-left: 42px;
+padding: 5px 0px 10px 8px;
+}
+.sect10_container .clarity2_col img{
+margin-left: 45px;
+}
+.sect10_container .clarity1_col h1,
+.sect10_container .clarity1_col p {
+margin-left: 45px;
+}
 
-    }
+.sect10_container .clarity1_col .sect10_btn button{
+width: 50%;
+margin-left: 42px;
+
+}
 
 /* ----------------Sect11 Container  ---------------- */
 
 
-    .sect11_container .footer1_col h1 {
-        padding-top: 30px;
-    }
-    .sect11_container .footer1_col h3 {
-        padding: 20px 300px;
-    }
-    .sect11_container .footer1_col form {
-        margin-left: 32%;
-    }
-    .sect11_container .footer1_col .sect11_btn button{
-        margin-left: -43%;
-
-    }
+.sect11_container .footer_col h1 {
+padding-top: 30px;
+}
+.sect11_container .footer_col h3 {
+padding: 20px 300px;
+}
 
 
- }
+
+}
 
 
 /* XX-Large devices (larger desktops, 1400px and up) */
@@ -1289,182 +1065,145 @@ margin-left: 30px;
 
 
 .nav_bar .navbar_brand img{
-    margin-left: 100px;
+margin-left: 100px;
 }
 
- .nav_bar .navbar_collapse{
-    margin-left: 19%;
+.nav_bar .navbar_collapse{
+margin-left: 19%;
 }
 
 
- /* ----------------Sect1 Container  ---------------- */
+/* ----------------Sect1 Container  ---------------- */
 .sect1_container .imgdiv1_col {
-    width: 43%;
+width: 43%;
 }
 .sect1_container .imgdiv2_col {
-    width: 57%;
+width: 57%;
 }
 .sect1_container .imgdiv1_col img{
-    margin-left: 65px;
+margin-left: 65px;
 }
 .sect1_container .imgdiv2_col h1 {
-    font-size: 60px;
+font-size: 60px;
 }
 .sect1_container .imgdiv2_col h3 {
-    font-size: 35px;
+font-size: 35px;
 
 }
 .sect1_container .imgdiv2_col p {
-    padding: 5px 150px 0px 10px ;
-    font-size: 20px;
+padding: 5px 150px 0px 10px ;
+font-size: 20px;
 }
 
 /* ----------------Sect2 Container  ---------------- */
 
-.sect2_container .slider_col img{
-    width: 140px;
-}
+
 .sect2_container .slider_col{
-    margin-left: 40px;
+margin-left: 40px;
 }
 .sect3_container .achiever_row .achiever_col h2{
-    padding: 0px 75px;
+padding: 0px 75px;
 
 }
 
 /* ----------------Sect4 Container  ---------------- */
 
 .sect4_container .smartbrand_row .smartbrand1_col img{
-    margin-left: 90px;
+margin-left: 90px;
 }
 .sect4_container .smartbrand_row .smartbrand2_col p{
-    padding: 20px 65px 0px 0px;
-    font-size: 20px;
-    margin-left: -40px;
+padding: 20px 65px 0px 0px;
+font-size: 20px;
+margin-left: -40px;
 }
 .sect4_container .smartbrand_row .smartbrand2_col .sect4_btn button{
-    width: 50%;
-    margin-left: -47px;
+width: 50%;
+margin-left: -47px;
 }
 
 
 /* ----------------Sect5 Container  ---------------- */
 
 .sect5_container .learn_col img{
-    width: 240px;
+width: 240px;
 
 }
 
 /* ----------------Sect6 Container  ---------------- */
 
 .sect6_container .testimonial1_col h2{
-    font-size: 20px;
-    padding: 30px 100px;
+font-size: 20px;
+padding: 30px 100px;
 }
 .sect6_container .testimonial1_col h3{
-    font-size: 15px;
+font-size: 15px;
 }
 
 
 /* ----------------Sect7 Container  ---------------- */
-.sect7_container .jumpstart2_col img{
-    width: 500px;
-    height: 350px;
-    margin-right: 60px;
-    margin-left: 20px;
-}
+
 .sect7_container .jumpstart1_col h1 {
-    margin-left: 70px;
-    font-size: 50px;
-    padding-right: 80px;
+margin-left: 70px;
+font-size: 50px;
+padding-right: 80px;
 }
 .sect7_container .jumpstart1_col p {
-    font-size: 20px;
-    margin-left: 70px;
+font-size: 20px;
+margin-left: 70px;
 
 }
 .sect7_container .jumpstart1_col .sect7_btn button{
-    width: 50%;
-    margin-left: 60px;
+width: 50%;
+margin-left: 60px;
 }
 /* ----------------Sect8 Container  ---------------- */
 .sect8_container .client_col img{
-    width: 280px;
+width: 280px;
 }
 /* ----------------Sect9 Container  ---------------- */
 
 .sect9_container .hustle1_col img{
-    margin-left: 90px;
+margin-left: 90px;
 }
 .sect9_container .hustle2_col p {
-    padding: 5px 50px 0px 10px ;
-    font-size: 20px;
+padding: 5px 50px 0px 10px ;
+font-size: 20px;
 
 }
 .sect9_container .hustle2_col{
-    margin-left: -30px
+margin-left: -30px
 }
 
 
 /* ----------------Sect10 Container  ---------------- */
 .sect10_container .clarity1_col h1 {
-    margin-left: 90px;
+margin-left: 90px;
 }
 .sect10_container .clarity1_col p {
-    margin-left: 90px;
+margin-left: 90px;
 
 }
 .sect10_container .clarity2_col img{
-    margin-left: 70px;
+margin-left: 70px;
 }
 .sect10_container .clarity1_col .sect10_btn button{
-    width: 45%;
-    margin-left: 80px;
-    font-size: 23px;
-    background-color: 	#808080;
+width: 45%;
+margin-left: 80px;
+font-size: 23px;
+background-color: 	#808080;
 }
 
 
 /* ----------------Sect11 Container  ---------------- */
-.sect11_container .footer1_col h1 {
-    font-size: 45px;
+.sect11_container .footer_col h1 {
+font-size: 45px;
 }
-.sect11_container .footer1_col h3 {
-    padding: 20px 380px;
-    font-size: 20px;
+.sect11_container .footer_col h3 {
+padding: 20px 380px;
+font-size: 20px;
 }
-.sect11_container .footer1_col form input {
-    width: 380px;
-
-}
-.sect11_container .footer1_col{
-    margin-bottom: 55px;
-}
-.sect11_container .footer1_col .sect11_btn button{
-    font-size: 19px;
-    margin-left: -54%;
-    width: 380px;
-}
-.sect11_container .footer1_col span a i {
-    font-size: 30px;
-}
-.sect11_container .footer2_col .footer_link  a {
-    font-size: 16px;
-}
-.sect11_container .footer2_col h6{
-    font-size: 17px;
-
-}
-.sect11_container .footer1_col form input {
-    margin-left: 0px;
-}
-.sect11_container .footer1_col .sect11_btn button{
-    width: 380px;
-    margin-left: -58%;
-
-}
-.sect11_container .footer1_col span {
-    margin: 30px 50% 30px 0%;
+.sect11_container .footer_col form .form_container{
+    margin: 0px 32%;
 }
 
 
